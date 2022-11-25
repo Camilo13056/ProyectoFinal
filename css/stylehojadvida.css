@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #edf2f4;
+    position: relative;
+    min-height: 100vh;
+}
+
+.header {
+
+    background-color: #00a8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+.header .navegacion {
+    list-style: none;
+}
+
+.header .navegacion li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.header .navegacion a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+.header .navegacion li a:hover {
+    color: #00171f;
+}
+
+.header .navegacion li:hover {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+}
+
+.header .boton {
+    font-size: 15px;
+    font-weight: 40px;
+    color: #003459;
+    padding: 4px 15px;
+    background: #d3d3d3;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 15px;
+    transition: all 300ms ease;
+    position: relative;
+}
+
+
+.header .boton:hover {
+    color: rgb(255, 255, 255);
+    background-color: #003459;
+}
+
+.nombrem{
+    width: 100%;
+    height: 300px;
+    background-color: #00a8e8;
+    margin-top: 30px;
+}
+
+.nombrem .contenido{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    align-items: center;
+    padding: 50px 0;
+    left: 20%;
+}
+
+.nombrem .contenido .nombrec{
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.nombrem .contenido .infor{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.infper{
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    background-color: #00a8e8;
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.infper .tcontenedor{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.infper .tinf{
+    color: #003459;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+}
+
+.infper .infor{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
