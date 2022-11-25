@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Animacion a Camilo Rodriguez-----*/
+
+a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+a::before,
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+a::before {
+    background-color: #00a8e8;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .8s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .8s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #00a8e8;
+}
+
+a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+
+a:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+
+a span {
+    display: inline-block;
+    transition: transform .8s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+a:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    background-color: #edf2f4;
+
+
+}
+
+.contenedor d {
+    
+    text-align: center;
+    font-size: 30px;
+    color: #edf2f4;
+}
+
+.contenedor .textoc {
+    
+    background-color: #00a8e8;
+    padding: 5px 15px;
+}
+
+.textoc {
+    font-weight: 600;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+
+
+
+
+header {
+    position: absolute;
+    bottom: 30%;
+    padding: 0 50px;
+}
+
+header h1 {
+    font-size: 7rem;
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* header .boton{
+    padding: 0 5px;
+    width: 150px;
+    outline: none;
+    border: 0;
+    height: 50px;
+    font-weight: 300;
+    background-color: #00a8e8;
+    border-radius: 40px;
+    transition: width 0.5s;
+    cursor: pointer;
+    color: #edf2f4;
+}
+
+header .boton:hover{
+    width: 200px;
+}
+header .boton b{
+    font-size: 18px;
+}*/
+header .boton {
+    font-size: 20px;
+    font-weight: 40px;
+    color: #edf2f4;
+    padding: 6px 30px;
+    background: #00a8e8;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 40px;
+    transition: all 0.5s ease 0s;
+
+}
+
+header .boton:hover {
+    color: rgb(255, 255, 255);
+    background-color: #12596f;
+}
+
+.contenedor .img {
+    position: absolute;
+    height: 850px;
+    width: 850px;
+    left: 38%;
+    bottom: 0;
+    z-index: 999;
+}
