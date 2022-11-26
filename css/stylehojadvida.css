@@ -73,7 +73,7 @@ body {
 .nombrem{
     width: 100%;
     height: 300px;
-    background-color: #00a8e8;
+    background-color: #035d9e;
     margin-top: 30px;
 }
 
@@ -101,8 +101,8 @@ body {
     width: 90%;
     height: auto;
     border-radius: 30px;
-    background-color: #00a8e8;
-    margin: 5% auto;
+    background-color: #003459;
+    margin: 2% auto;
     padding: 20px;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 .infper .tinf{
-    color: #003459;
+    color: #68c0ff;
     font-weight: bolder;
     font-size: large;
     display: inline;

@@ -1,4 +1,4 @@
-function obtenerinfo() {
+function obteneRDatos() {
     let usuario = document.getElementById("usuario").value;
     let pass = document.getElementById("contrasena").value;
     let pass2 = document.getElementById("contraseña").value;

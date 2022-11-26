@@ -69,6 +69,20 @@ body {
     position: relative;
 }
 
+/*.botonmodos{
+    position: absolute;
+    top:6px;
+    left: 20px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 30px;
+    background-color: #edf2f4;
+}
+
+html .mod-oscuro{
+    filter: invert(100%);
+}
+*/
 
 .header .boton:hover {
     color: rgb(255, 255, 255);
@@ -158,6 +172,8 @@ p {
     font-size: 15px;
 }
 
+
+
 @media (max-width: 1080px) {
     .contenedorc{
         flex-direction: column;
@@ -174,3 +190,4 @@ p {
     }
 
 }
+
